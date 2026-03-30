@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Maquetación con Tablas - Desarrollo Web</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#458085;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+td{
+border:1px solid #44707e;
+padding:15px;
+vertical-align:top;
+}
+
+.header{
+background:#1f3a5f;
+color:rgb(21, 145, 107);
+font-size:32px;
+text-align:center;
+padding:30px;
+}
+
+.menu{
+background:#44a570;
+color:rgb(138, 52, 138);
+width:200px;
+}
+
+.menu a{
+display:block;
+color:rgb(156, 76, 76);
+text-decoration:none;
+padding:10px;
+margin:5px 0;
+background:#3b6aa0;
+border-radius:5px;
+}
+
+.menu a:hover{
+background:#1f3a5f;
+}
+
+.banner{
+background:#10f536;
+text-align:center;
+}
+
+.galeria img{
+width:100%;
+border-radius:6px;
+}
+
+.contenido{
+background:rgb(218, 52, 11);
+}
+
+.noticias{
+background:#2c80a7;
+}
+
+.publicidad{
+background:#8f7316;
+text-align:center;
+}
+
+.video{
+background:#1f9251;
+text-align:center;
+}
+
+.footer{
+background:#1f3a5f;
+color:rgb(119, 40, 40);
+text-align:center;
+font-size:14px;
+padding:20px;
+}
+
+h2{
+margin-top:0;
+}
+
+</style>
+
+</head>
+<body>
+
+<table>
+
+<!-- HEADER -->
+<tr>
+<td colspan="4" class="header">
+Tecnología y Desarrollo de Páginas Web
+</td>
+</tr>
+
+<!-- MENU + BANNER -->
+<tr>
+<td class="menu">
+<a href="#">Inicio</a>
+<a href="#">HTML</a>
+<a href="#">CSS</a>
+<a href="#">JavaScript</a>
+</td>
+
+<td colspan="3" class="banner">
+<h2>Bienvenido al Mundo del Desarrollo Web</h2>
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" width="100%">
+</td>
+</tr>
+
+<!-- GALERIA -->
+<tr>
+<td colspan="4" class="galeria">
+<h2>Galería de Tecnología</h2>
+
+<img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f">
+<br><br>
+<img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c">
+
+</td>
+</tr>
+
+<!-- PUBLICIDAD -->
+<tr>
+<td colspan="2" class="publicidad">
+<h3>Aprende HTML</h3>
+<img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159" width="100%">
+</td>
+
+<td colspan="2" class="publicidad">
+<h3>Aprende CSS</h3>
+<img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd" width="100%">
+</td>
+</tr>
+
+<!-- CONTENIDO + NOTICIAS -->
+<tr>
+<td colspan="2" class="contenido">
+<h2>¿Qué es el desarrollo web?</h2>
+<p>
+El desarrollo web es el proceso de crear sitios y aplicaciones
+para internet utilizando HTML, CSS y JavaScript.
+</p>
+
+<p>
+Permite construir páginas modernas, interactivas y accesibles
+desde cualquier dispositivo.
+</p>
+</td>
+
+<td colspan="2" class="noticias">
+<h2>Noticias Tecnológicas</h2>
+<p>💻 Nuevas herramientas para programadores</p>
+<p>🌐 Tendencias en diseño web</p>
+<p>🚀 Uso de inteligencia artificial</p>
+<p>📱 Diseño responsivo en crecimiento</p>
+</td>
+</tr>
+
+<!-- VIDEO -->
+<tr>
+<td colspan="4" class="video">
+<h2>Video: Aprende HTML</h2>
+
+<iframe width="560" height="315"
+src=https://www.youtube.com/watch?v=MYkHPpt14lw&t=19s
+title="Innovaciones"
+frameborder="0"
+allowfullscreen>
+</iframe>
