@@ -160,6 +160,20 @@ desde cualquier dispositivo.
 </p>
 </td>
 
+<script>
+let visitas = localStorage.getItem("visitas");
+
+if(visitas == null){
+    visitas = 0;
+}
+
+visitas++;
+
+localStorage.setItem("visitas", visitas);
+
+document.write("Visitas: " + visitas);
+</script>
+
 <td colspan="2" class="noticias">
 <h2>Noticias Tecnológicas</h2>
 <p>💻 Nuevas herramientas para programadores</p>
